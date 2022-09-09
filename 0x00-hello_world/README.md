@@ -1,1 +1,1 @@
-a C program that prints
+a C program that prints with the printf function
