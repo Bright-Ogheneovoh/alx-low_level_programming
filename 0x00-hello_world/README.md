@@ -1,1 +1,1 @@
-a C program that prints with the printf function
+a C program that prints the size of various types on the computer it is compiled and run
