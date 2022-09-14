@@ -2,8 +2,10 @@
 
 /**
  *
- * main - Prints all alphabets in both cases.
+ * main - Prints all alphabets in both cases
  *
+ * Description: using the main function
+ * this program prints 'Alphabets in both cases'
  * Return: Always 0 (Success)
  */
 int main(void)
