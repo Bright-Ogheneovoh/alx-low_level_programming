@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Prints all alphabets in both cases
  *
  * Description: using the main function
