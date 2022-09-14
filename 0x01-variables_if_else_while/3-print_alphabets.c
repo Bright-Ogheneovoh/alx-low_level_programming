@@ -2,14 +2,14 @@
 
 /**
  *
- * main - prints all alphabets in both cases
+ * main - Prints all alphabets in both cases.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 char ch;
-for (ch ='a' ; ch <= 'z' ; ch++)
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 	putchar(ch);
 }
