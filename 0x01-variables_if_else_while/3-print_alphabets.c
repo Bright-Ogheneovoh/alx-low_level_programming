@@ -1,25 +1,21 @@
-#include <stdio.h>                                                                                                                                              
+#include <stdio.h>
 
-                                                                                                                                                                
-
-/**                                                                                                                                                             
+/**
  *
- * main - Prints the alphabet in lower case & upper case                                                                                                        
- *                                                                                                                                                              
- * Return: Always 0(Success)                                                                                                                                    
+ * main - prints all alphabets in both cases
  *
- */                                                                                                                                                             
-
-int main(void)                                                                                                                                                  
-
-{                                                                                                                                                               
-
-char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";                                                                                          
-int i;                                                                                                                                                          
-
-for (i=0; i<52; i++)
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	putchar(alp[i]);
+char ch;
+for (ch ='a' ; ch <= 'z' ; ch++)
+{
+	putchar(ch);
+}
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+{
+	putchar(ch);
 }
 putchar('\n');
 return (0);
